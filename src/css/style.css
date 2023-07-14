@@ -1,0 +1,451 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "MazzardH Regular";
+}
+
+header,
+section,
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CABEÇALHO */
+
+.cabecalho {
+  background-color: var(--verde);
+  color: var(--roxo);
+  background-image: url(../images/marca-dagua-1200.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.cabecalho .container {
+  padding: 95px 165px 44px 165px;
+}
+
+.cabecalho .container {
+  width: 880px;
+  margin: 0 auto;
+  position: relative;
+  background: url(../images/kenia-1200.png) no-repeat 558px 24px,
+    url(../images/caixa-apoio-1200.png) no-repeat 164px 298px;
+}
+
+.cabecalho .container .titulo {
+  width: fit-content;
+}
+
+.cabecalho .container .titulo h2:first-child {
+  font-size: 3.1rem;
+  letter-spacing: 1.4rem;
+}
+
+.cabecalho .container .titulo h1 {
+  font-family: "MazzardH Bold";
+  font-size: 7rem;
+  line-height: 6.7rem;
+}
+
+.cabecalho .container .titulo h2:last-child {
+  font-size: 3.4rem;
+  text-align: right;
+}
+
+.cabecalho .container .texto {
+  width: 567px;
+}
+
+.cabecalho .container .texto p {
+  width: 359px;
+  font-family: "MazzardH Medium";
+  padding: 21px 0 0 60px;
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+
+.cabecalho .container .data-e-hora,
+.cabecalho .container .data-e-hora .data,
+.cabecalho .container .data-e-hora .hora {
+  display: flex;
+}
+.cabecalho .container .data-e-hora {
+  padding: 25px 35px 22px 35px;
+  gap: 14px;
+}
+
+.cabecalho .container .data-e-hora img {
+  width: 51px;
+  height: 51px;
+}
+
+.cabecalho .container .data-e-hora .data {
+  gap: 5px;
+}
+
+.cabecalho .container .data-e-hora .data .texto-data,
+.cabecalho .container .data-e-hora .hora .texto-hora p:first-child {
+  font-family: "MazzardH Bold";
+  font-size: 2.5rem;
+  letter-spacing: 0.3px;
+  padding-top: 4px;
+}
+
+.cabecalho .container .data-e-hora .hora {
+  gap: 5px;
+}
+
+.cabecalho .container .botao-01 img {
+  width: 404px;
+  margin-left: 17px;
+}
+
+/* PÚBLICO */
+
+.publico {
+  background-color: var(--roxo);
+  color: var(--verde);
+}
+
+.publico .container .carrossel {
+  display: grid;
+  grid-template-columns: repeat(4, 254px);
+  padding: 82px 0 53px;
+  grid-template-rows: 268px;
+  gap: 19px;
+  justify-content: center;
+}
+
+.publico .container .carrossel .topico .container-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  padding: 5px 10px;
+}
+
+.publico .container .carrossel .topico {
+  border: 2px solid var(--branco);
+  border-radius: 16px;
+}
+
+.publico .container .carrossel .topico .container-img img {
+  width: 62px;
+}
+
+.publico .container .carrossel .topico p {
+  font-family: "MazzardH Bold";
+  font-size: 3rem;
+  padding-left: 20px;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+}
+
+.publico .container .carrossel .topico:last-child p {
+  padding-left: 20px;
+  padding-right: 35px;
+}
+
+.publico .container .titulo-e-texto {
+  display: grid;
+  grid-template-columns: 375px 586px;
+  gap: 41px;
+  margin: 3px 104px 82px;
+}
+
+.publico .container .titulo-e-texto .titulo {
+  font-family: "MazzardH Bold";
+  font-size: 7.2rem;
+  letter-spacing: 1px;
+  padding-top: 26px;
+}
+
+.publico .container .titulo-e-texto .texto {
+  font-family: "MazzardH Medium";
+  font-size: 2.8rem;
+  line-height: 32px;
+}
+
+/* CRONOGRAMA */
+
+.cronograma {
+  background-color: var(--verde);
+  color: var(--roxo);
+}
+
+.cronograma .container {
+  display: grid;
+  grid-template-columns: 615px 595px;
+  margin-bottom: 62px;
+}
+
+.cronograma .container .lista {
+  background-color: var(--branco);
+  margin: 62px 0 0 64px;
+  padding: 27px 0px 25px 53px;
+  border-radius: 20px;
+}
+
+.cronograma .container .lista h2 {
+  font-family: "MazzardH Bold";
+  font-size: 5.2rem;
+  letter-spacing: 0.7px;
+}
+
+.cronograma .container .lista ul {
+  margin: 20px 0 0 3px;
+}
+
+.cronograma .container .lista ul li {
+  font-family: "MazzardH Medium";
+  font-size: 2.6rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 9.7px;
+}
+
+.cronograma .container .lista ul li img {
+  margin-right: 11px;
+}
+
+.cronograma .container .lista ul li p {
+  margin-top: 1px;
+}
+
+.cronograma .container .materiais-inclusos {
+  position: relative;
+  right: 58px;
+  margin: 62px 0 0 18px;
+  border-radius: 20px;
+  border: 4px solid var(--branco);
+  padding: 0 0 28px 63px;
+  height: fit-content;
+}
+
+.cronograma .container .materiais-inclusos h3 {
+  font-family: "MazzardH Bold";
+  font-size: 3.4rem;
+  letter-spacing: -0.2px;
+  margin: 21px 0 19px 0;
+}
+
+.cronograma .container .materiais-inclusos span {
+  font-family: "MazzardH Bold";
+}
+
+.cronograma .container .materiais-inclusos .texto {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+}
+
+.cronograma .container .materiais-inclusos .texto p {
+  font-family: "MazzardH Medium";
+  font-size: 1.7rem;
+  letter-spacing: -0.3px;
+  line-height: 26px;
+  padding-right: 10px;
+}
+
+/* SOBRE */
+.sobre {
+  background-color: var(--roxo);
+  color: var(--verde);
+}
+
+.sobre .container {
+  display: grid;
+  grid-template-columns: 605px 605px;
+}
+
+.sobre .container .foto-kenia {
+  margin: -35px 0 -3px 55px;
+}
+
+.sobre .container .info span {
+  color: var(--branco);
+}
+
+.sobre .container .info h2 {
+  font-family: "MazzardH Bold";
+  font-size: 5.6rem;
+  letter-spacing: 1.2px;
+  margin: 55px 0 23px -32px;
+}
+
+.sobre .container .info .texto {
+  margin-left: 2px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 85px 0 -30px;
+  gap: 30px;
+}
+
+.sobre .container .info p {
+  font-family: "MazzardH Medium";
+  font-size: 2.4rem;
+  letter-spacing: 0.1px;
+  line-height: 31.2px;
+}
+
+.sobre .container .info .botao-02 img {
+  margin: -3px 27px 0px 0;
+  width: 469px;
+}
+
+.rodape {
+  background-color: var(--verde);
+  color: var(--roxo);
+}
+
+.rodape .container .banner-01 {
+  display: flex;
+  margin-top: 51px;
+}
+
+.rodape .container .banner-01 .investimento {
+  padding: 50px 58px 71px 0;
+}
+
+.rodape .container .banner-01 .investimento h2 {
+  font-family: "MazzardH ExtraBold";
+  font-size: 5rem;
+  letter-spacing: 1.3px;
+  margin-bottom: 14px;
+}
+
+.rodape .container .banner-01 .investimento p:before {
+  font-family: "MazzardH ExtraBold";
+  content: "R$";
+  font-size: 8rem;
+  position: relative;
+  bottom: 49px;
+}
+.rodape .container .banner-01 .investimento p {
+  font-family: "MazzardH ExtraBold";
+  font-size: 14rem;
+  letter-spacing: -0.7px;
+}
+
+.rodape .container .banner-01 .investimento p:after {
+  content: ",00";
+  font-size: 8rem;
+  position: relative;
+  bottom: 49px;
+}
+
+.rodape .container .banner-01 .separador {
+  width: 4px;
+  height: 285px;
+}
+
+.rodape .container .banner-01 .localizacao .data,
+.rodape .container .banner-01 .localizacao .hora,
+.rodape .container .banner-01 .localizacao .local {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.rodape .container .banner-01 .localizacao {
+  padding: 2px 0px 0 42px;
+}
+
+.rodape .container .banner-01 .localizacao .local {
+  padding: 7px 0px 0px 10px;
+}
+
+.rodape .container .banner-01 .localizacao .data {
+  margin-bottom: 25px;
+}
+
+.rodape .container .banner-01 .localizacao .hora {
+  margin-bottom: 4px;
+}
+
+.rodape .container .banner-01 .localizacao .data .texto-data p {
+  font-family: "MazzardH Bold";
+  font-size: 3.7rem;
+}
+
+.rodape .container .banner-01 .localizacao .hora .texto-hora {
+  margin-left: 3px;
+}
+
+.rodape .container .banner-01 .localizacao .hora .texto-hora p:first-child {
+  font-family: "MazzardH Bold";
+  font-size: 3.7rem;
+}
+
+.rodape .container .banner-01 .localizacao .hora .texto-hora p:last-child {
+  font-size: 2.4rem;
+}
+
+.rodape .container .banner-01 .localizacao .local img {
+  width: 46px;
+}
+
+.rodape .container .banner-01 .localizacao .local .texto-local {
+  margin: 3px 0 0 6px;
+}
+
+.rodape .container .banner-01 .localizacao .local .texto-local p {
+  font-family: "MazzardH SemiBold";
+  font-size: 2.7rem;
+  letter-spacing: 0.5px;
+  line-height: 34px;
+}
+
+.rodape .container .banner-02 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rodape .container .banner-02 p {
+  font-family: "MazzardH Bold";
+  font-size: 4rem;
+  text-align: center;
+  line-height: 38px;
+  margin-bottom: 21px;
+}
+
+.rodape .container .banner-02 .botao-03 img {
+  width: 604px;
+  margin-bottom: 20px;
+}
+
+.rodape .container .banner-02 span {
+  font-family: "MazzardH SemiBold";
+  font-size: 2.6rem;
+  margin-bottom: 50px;
+}
+
+/* BOTÕES */
+
+.botao-01,
+.botao-02,
+.botao-03 {
+  transition: 0.3s;
+}
+
+.botao-01:hover,
+.botao-02:hover,
+.botao-03:hover {
+  transform: translateY(6px);
+  scale: 1.2;
+}
+
+.botao-01:active,
+.botao-02:active,
+.botao-03:active {
+  scale: 1.1;
+}
