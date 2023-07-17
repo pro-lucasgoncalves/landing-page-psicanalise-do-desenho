@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  max-width: 100vw;
+  width: 100vw;
   font-size: 1.6rem;
   font-family: "MazzardH Regular";
 }
@@ -24,6 +24,7 @@ footer {
   background-repeat: no-repeat;
   background-position: top right;
   background-blend-mode: luminosity;
+  overflow-x: clip;
 }
 
 .cabecalho .container {
