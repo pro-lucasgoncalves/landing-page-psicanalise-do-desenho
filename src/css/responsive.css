@@ -1,4 +1,4 @@
-@media (max-width: 768) {
+@media (max-width: 1024px) {
   .cabecalho {
     background-image: url(../images/marca-dagua-1200.png);
     background-repeat: no-repeat;
@@ -15,7 +15,6 @@
 
   .cabecalho .container .texto p {
     width: 350px;
-    font-family: "MazzardH Medium";
     padding: 18px 0 0 58px;
     font-size: 1.8rem;
     line-height: 2.4rem;
@@ -155,7 +154,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 720px) {
 
   .cabecalho .container {
     background-size: initial;
@@ -191,7 +190,6 @@
 
   .cabecalho .container .texto p {
     max-width: 326px;
-    /* text-align: justify; */
     padding: 25px 15px 15px 115px;
     font-size: 1.6rem;
   }
