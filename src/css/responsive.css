@@ -1,4 +1,4 @@
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 720px) and (max-width: 1024px) {
   .cabecalho {
     background-image: url(../images/marca-dagua-1200.png);
     background-repeat: no-repeat;
@@ -155,7 +155,7 @@
   }
 }
 
-@media (min-width: 375px) and (max-width: 767px) {
+@media (min-width: 375px) and (max-width: 719px) {
 
   .cabecalho .container {
     background-size: initial;
@@ -190,9 +190,8 @@
   }
 
   .cabecalho .container .texto p {
-    width: auto;
-    height: 132px;
-    text-align: justify;
+    max-width: 326px;
+    /* text-align: justify; */
     padding: 25px 15px 15px 115px;
     font-size: 1.6rem;
   }
@@ -211,6 +210,10 @@
   .cabecalho .container .data-e-hora .hora .texto-hora p:first-child {
     font-size: 2rem;
     padding-top: 8px;
+  }
+
+  .cabecalho .container .botao-01 {
+    width: 100%;
   }
 
   .cabecalho .container .botao-01 img {
