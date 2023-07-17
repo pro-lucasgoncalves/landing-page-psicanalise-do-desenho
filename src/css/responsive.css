@@ -1,0 +1,356 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  .cabecalho {
+    background-image: url(../images/marca-dagua-1200.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+  }
+
+  .cabecalho .container {
+    padding: 65px 199px 14px 135px;
+    background: url(../images/kenia-1200.png) no-repeat 428px 24px, url(../images/caixa-apoio-1200.png) no-repeat 104px 268px;
+  }
+
+  .cabecalho .container .texto p {
+    width: 350px;
+    font-family: "MazzardH Medium";
+    padding: 18px 0 0 32px;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+
+  .cabecalho .container .data-e-hora {
+    padding: 25px 0 22px 0;
+    gap: 7px;
+  }
+
+  .cabecalho .container .data-e-hora img {
+    width: 51px;
+    height: 51px;
+  }
+
+  .cabecalho .container .data-e-hora .data .texto-data,
+  .cabecalho .container .data-e-hora .hora .texto-hora p:first-child {
+    font-size: 2rem;
+    padding-top: 8px;
+  }
+
+  .publico .container .carrossel {
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    grid-template-rows: repeat(2, 270px);
+  }
+
+  .publico .container .titulo-e-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .publico .container .titulo-e-texto .titulo h2 {
+    width: 380px;
+  }
+
+  .publico .container .titulo-e-texto .texto p {
+    width: 500px;
+  }
+
+  .cronograma .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 62px 0;
+    position: relative;
+    margin-left: 0;
+  }
+
+  .cronograma .container .lista {
+    background-color: var(--branco);
+    padding: 27px 80px;
+    margin-left: 0;
+    width: 460px;
+  }
+
+  .cronograma .container .materiais-inclusos {
+    padding: 51px 21px 0;
+    margin: -30px 0 0 0;
+  }
+
+  .sobre .container {
+    padding-left: 0;
+    margin-bottom: -2px;
+    position: relative;
+  }
+
+  .sobre .container .foto-kenia-02 {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+  }
+
+  .sobre .container .info .texto {
+    margin-left: 0;
+    background-color: rgb(0, 0, 0, 0.2);
+    text-shadow: #000000 0.1em 0.1em 0.2em;
+    padding: 20px;
+  }
+
+  .sobre .container .info .botao-02 {
+    margin: 14px 34px;
+  }
+
+  .sobre .container .info .titulo,
+  .sobre .container .info .texto,
+  .sobre .container .info .botao-02 {
+    position: relative;
+    z-index: 2;
+  }
+
+  .rodape .container {
+    margin: 0;
+  }
+
+  .rodape .container .banner-01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 51px;
+  }
+
+  .rodape .container .banner-01 .investimento {
+    padding: 0;
+    border-bottom: 4px solid var(--roxo);
+    padding-bottom: 20px;
+  }
+
+  .rodape .container .banner-01 .separador {
+    display: none;
+  }
+
+  .rodape .container .banner-01 .localizacao {
+    padding: 40px 0;
+  }
+
+  .rodape .container .banner-02 p {
+    font-size: 3rem;
+    width: 665px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+
+  .cabecalho {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: top left;
+  }
+
+  .cabecalho .container {
+    padding: 40px 4px;
+    background: none, url(../images/caixa-apoio-1200.png) no-repeat 40px 210px;
+    background-size: initial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cabecalho .container .titulo h2:first-child {
+    font-size: 2.1rem;
+    letter-spacing: 1.4rem;
+  }
+
+  .cabecalho .container .titulo h1 {
+    font-family: "MazzardH Bold";
+    font-size: 6rem;
+    line-height: 5.7rem;
+  }
+
+  .cabecalho .container .titulo h2:last-child {
+    font-size: 2.4rem;
+    text-align: right;
+  }
+
+  .cabecalho .container .texto p {
+    width: 284px;
+    text-align: justify;
+    padding: 25px 0 15px 70px;
+    font-size: 1.6rem;
+  }
+
+  .cabecalho .container .data-e-hora {
+    justify-content: center;
+    gap: 7px;
+  }
+
+  .cabecalho .container .data-e-hora img {
+    width: 51px;
+    height: 51px;
+  }
+
+  .cabecalho .container .data-e-hora .data .texto-data,
+  .cabecalho .container .data-e-hora .hora .texto-hora p:first-child {
+    font-size: 2rem;
+    padding-top: 8px;
+  }
+
+  .cabecalho .container .botao-01 img {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .publico .container .carrossel {
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: repeat(4, 270px);
+  }
+
+  .publico .container .titulo-e-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+  }
+
+  .publico .container .titulo-e-texto .texto p {
+    width: 380px;
+    font-size: 2.2rem;
+  }
+
+  .cronograma .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 62px 0;
+    margin-left: 0;
+  }
+
+  .cronograma .container .lista {
+    background-color: var(--branco);
+    padding: 27px 0;
+    margin-left: 0;
+    width: 425px;
+  }
+
+  .cronograma .container .lista h2,
+  .cronograma .container .lista ul {
+    padding: 0 31px;
+  }
+
+  .cronograma .container .lista ul li {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 9.7px;
+  }
+
+  .cronograma .container .materiais-inclusos {
+    padding: 51px 21px 0;
+    margin: -30px 0 0 0;
+  }
+
+  .cronograma .container .materiais-inclusos .texto p:first-child,
+  .cronograma .container .materiais-inclusos .texto p:last-child {
+    width: 340px;
+  }
+
+  .sobre .container {
+    padding-left: 0;
+    margin-bottom: 0;
+    position: relative;
+    overflow-x: clip;
+  }
+
+  .sobre .container .foto-kenia-02 {
+    position: absolute;
+    z-index: 1;
+    left: 66px;
+  }
+
+  .sobre .container .info {
+    width: 380px;
+    padding: 54px 22px 0px;
+    margin-right: 0;
+  }
+
+  .sobre .container .info .texto {
+    margin-left: 0;
+    background-color: rgb(0, 0, 0, 0.2);
+    text-shadow: #000000 0.1em 0.1em 0.2em;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .sobre .container .info .texto p {
+    font-size: 1.6rem;
+    line-height: 26.2px;
+    letter-spacing: 0.5px;
+  }
+
+  .sobre .container .info .botao-02 {
+    margin: 16px 0 13px 0;
+  }
+
+  .sobre .container .info .botao-02 img {
+    width: 368px;
+  }
+
+  .sobre .container .info .titulo,
+  .sobre .container .info .texto,
+  .sobre .container .info .botao-02 {
+    position: relative;
+    z-index: 2;
+  }
+
+  .rodape .container {
+    margin: 0;
+  }
+
+  .rodape .container .banner-01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 51px;
+  }
+
+  .rodape .container .banner-01 .investimento {
+    padding: 0;
+    border-bottom: 4px solid var(--roxo);
+    padding-bottom: 20px;
+  }
+
+  .rodape .container .banner-01 .separador {
+    display: none;
+  }
+
+  .rodape .container .banner-01 .localizacao {
+    padding: 40px 0;
+  }
+
+  .rodape .container .banner-02 p {
+    font-size: 1.8rem;
+    width: 400px;
+    line-height: initial;
+  }
+
+  .rodape .container .banner-02 .botao-03 img {
+    width: 385px;
+  }
+
+  .rodape .container .banner-01 .investimento p:before {
+    font-size: 6rem;
+  }
+
+  .rodape .container .banner-01 .investimento p {
+    font-size: 12rem;
+  }
+
+  .rodape .container .banner-01 .investimento p:after {
+    font-size: 6rem;
+  }
+
+  .rodape .container .banner-02 span {
+    font-size: 1.6rem;
+  }
+}
