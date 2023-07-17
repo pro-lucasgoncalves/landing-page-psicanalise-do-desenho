@@ -1,4 +1,4 @@
-@media (min-width: 721px) {
+@media (min-width: 1024px) {
   .cabecalho {
     background-image: url(../images/marca-dagua-1200.png);
     background-repeat: no-repeat;
@@ -155,7 +155,7 @@
   }
 }
 
-@media (max-width: 720px) {
+@media (min-width: 425px) {
 
   .cabecalho .container {
     background-size: initial;
