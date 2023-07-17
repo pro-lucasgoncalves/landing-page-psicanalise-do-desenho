@@ -1,5 +1,4 @@
-@media (min-width: 768px) and (max-width: 1023px) {
-
+@media (min-width: 768px) and (max-width: 1024px) {
   .cabecalho {
     background-image: url(../images/marca-dagua-1200.png);
     background-repeat: no-repeat;
@@ -7,14 +6,17 @@
   }
 
   .cabecalho .container {
-    padding: 65px 199px 14px 135px;
-    background: url(../images/kenia-1200.png) no-repeat 428px 24px, url(../images/caixa-apoio-1200.png) no-repeat 104px 268px;
+    right: 95px;
+    padding: 95px 168px 44px;
+    position: relative;
+    display: flex;
+    z-index: 0;
   }
 
   .cabecalho .container .texto p {
     width: 350px;
     font-family: "MazzardH Medium";
-    padding: 18px 0 0 32px;
+    padding: 18px 0 0 58px;
     font-size: 1.8rem;
     line-height: 2.4rem;
   }
@@ -35,6 +37,20 @@
     padding-top: 8px;
   }
 
+  .cabecalho .container .back-images img:first-child {
+    position: absolute;
+    top: 299px;
+    left: 165px;
+    z-index: -1;
+  }
+
+  .cabecalho .container .back-images img:last-child {
+    position: absolute;
+    top: 24px;
+    left: 510px;
+    z-index: -1;
+  }
+
   .publico .container .carrossel {
     display: grid;
     grid-template-columns: repeat(2, 250px);
@@ -50,6 +66,7 @@
 
   .publico .container .titulo-e-texto .titulo h2 {
     width: 380px;
+    margin-left: 0;
   }
 
   .publico .container .titulo-e-texto .texto p {
@@ -140,19 +157,21 @@
 
 @media (min-width: 375px) and (max-width: 767px) {
 
-  .cabecalho {
-    background-image: none;
-    background-repeat: no-repeat;
-    background-position: top left;
-  }
-
   .cabecalho .container {
-    padding: 40px 4px;
-    background: none, url(../images/caixa-apoio-1200.png) no-repeat 40px 210px;
     background-size: initial;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 45px;
+  }
+
+  .cabecalho .container .back-images img:first-child {
+    top: 214px;
+    left: 95px;
+  }
+
+  .cabecalho .container .titulo {
+    margin: 0 auto;
   }
 
   .cabecalho .container .titulo h2:first-child {
@@ -161,7 +180,6 @@
   }
 
   .cabecalho .container .titulo h1 {
-    font-family: "MazzardH Bold";
     font-size: 6rem;
     line-height: 5.7rem;
   }
@@ -172,9 +190,10 @@
   }
 
   .cabecalho .container .texto p {
-    width: 284px;
+    width: auto;
+    height: 132px;
     text-align: justify;
-    padding: 25px 0 15px 70px;
+    padding: 25px 15px 15px 115px;
     font-size: 1.6rem;
   }
 
@@ -199,6 +218,10 @@
     margin-left: 0;
   }
 
+  .cabecalho .container .back-images img:last-child {
+    display: none
+  }
+
   .publico .container .carrossel {
     display: grid;
     grid-template-columns: 250px;
@@ -211,6 +234,10 @@
     align-items: center;
     text-align: center;
     margin: 0;
+  }
+
+  .publico .container .titulo-e-texto .titulo h2 {
+    margin-left: 0;
   }
 
   .publico .container .titulo-e-texto .texto p {

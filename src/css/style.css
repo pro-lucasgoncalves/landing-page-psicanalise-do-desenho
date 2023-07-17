@@ -3,10 +3,9 @@ html {
 }
 
 body {
-  width: 100vw;
+  max-width: 100vw;
   font-size: 1.6rem;
   font-family: "MazzardH Regular";
-  overflow-x: clip;
 }
 
 header,
@@ -15,6 +14,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-x: clip;
 }
 
 .cabecalho {
@@ -28,11 +28,22 @@ footer {
 
 .cabecalho .container {
   padding: 95px 694px 44px 235px;
+  position: relative;
+  display: flex;
+  z-index: 0;
 }
 
-.cabecalho .container {
-  background: url(../images/kenia-1200.png) no-repeat 628px 24px,
-    url(../images/caixa-apoio-1200.png) no-repeat 234px 298px;
+.cabecalho .container .back-images img:first-child {
+  position: absolute;
+  top: 299px;
+  left: 234px;
+  z-index: -1;
+}
+
+.cabecalho .container .back-images img:last-child {
+  position: absolute;
+  top: 24px;
+  right: 242px;
 }
 
 .cabecalho .container .titulo {
@@ -102,6 +113,7 @@ footer {
 .publico {
   background-color: var(--roxo);
   color: var(--verde);
+  position: relative;
 }
 
 .publico .container {
@@ -109,6 +121,7 @@ footer {
   display: flex;
   align-items: center;
   flex-direction: column;
+
 }
 
 .publico .container .carrossel {
