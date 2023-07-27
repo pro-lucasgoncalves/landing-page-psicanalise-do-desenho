@@ -45,6 +45,7 @@ footer {
   position: absolute;
   top: 24px;
   right: 242px;
+  z-index: -1;
 }
 
 .cabecalho .container .titulo {
@@ -81,7 +82,7 @@ footer {
   display: flex;
 }
 .cabecalho .container .data-e-hora {
-  padding: 25px 35px 22px 35px;
+  padding: 25px 35px 22px;
   gap: 14px;
 }
 
@@ -104,6 +105,7 @@ footer {
 
 .cabecalho .container .data-e-hora .hora {
   gap: 5px;
+  width: 100%;
 }
 
 .cabecalho .container .botao-01 img {
